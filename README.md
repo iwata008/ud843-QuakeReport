@@ -1,3 +1,9 @@
+Memo for myself
+===================================
+
+It didn't build successfully for the first try because of the version of gradle and plugin. 
+I did research a bit and according to this website (https://stackoverflow.com/questions/57755725/how-to-fix-error-could-not-find-method-google-for-arguments-on-repository), I had to update the distribution URL and classpath in "build.gradle". I changed the distribution URL to 6.5-bin.zip and classpath to "4.1.1" as the website provided. And everything worked successfully.
+ 
 Quake Report App
 ===================================
 
